@@ -1,4 +1,4 @@
-fftw3
+pyFFTW==0.11.1
 hyperspy
 hyperspy-gui-traitsui
 hyperspy_gui_ipywidgets

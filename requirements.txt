@@ -8,7 +8,6 @@ pandas
 PyCifRW==4.3
 periodictable
 scipy
-collections
 skimage
 os
 pyprismatic

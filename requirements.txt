@@ -5,7 +5,7 @@ matplotlib
 numpy
 ase
 pandas
-CifFile==4.3
+PyCifRW==4.3
 periodictable
 scipy
 collections

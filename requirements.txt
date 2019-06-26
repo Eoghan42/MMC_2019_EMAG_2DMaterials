@@ -2,7 +2,14 @@ hyperspy
 hyperspy-gui-traitsui
 hyperspy_gui_ipywidgets
 matplotlib
-atomap
 numpy
 ase
 pandas
+CifFile
+periodictable
+scipy
+collections
+skimage
+os
+pyprismatic
+warnings

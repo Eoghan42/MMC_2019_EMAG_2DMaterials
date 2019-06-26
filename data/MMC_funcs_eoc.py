@@ -14,7 +14,6 @@ import CifFile
 import pyprismatic as pr
 import scipy
 import skimage
-import os
 import warnings
 warnings.simplefilter("ignore", UserWarning)
 warnings.simplefilter("ignore", FutureWarning)
@@ -1912,11 +1911,7 @@ def simulate_with_prismatic(image,
 
     simulation_filename = xyz_filename + '.XYZ'
 
-    file_exists = os.path.isfile(simulation_filename)
-    if file_exists:
-        pass
-    else:
-        raise OSError('XYZ file not found, stopping refinement')
+    p = open(simulation_filename)
 
     pr_sim = pr.Metadata(filenameAtoms=simulation_filename)
     pr_sim.probeStepX = pr_sim.probeStepY = round(real_sampling_sim_angs, 6)

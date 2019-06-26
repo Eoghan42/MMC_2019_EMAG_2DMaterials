@@ -2,7 +2,7 @@ hyperspy
 hyperspy-gui-traitsui
 hyperspy_gui_ipywidgets
 matplotlib
-numpy
+numpy==1.15.1
 ase
 pandas
 PyCifRW==4.3

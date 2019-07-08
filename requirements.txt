@@ -1,3 +1,4 @@
+pyprismatic
 hyperspy
 hyperspy-gui-traitsui
 hyperspy_gui_ipywidgets

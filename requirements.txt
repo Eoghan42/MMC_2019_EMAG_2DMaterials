@@ -1,5 +1,4 @@
 pyprismatic
-fftw3.h
 hyperspy
 hyperspy-gui-traitsui
 hyperspy_gui_ipywidgets

@@ -5,6 +5,7 @@ channels:
 dependencies:
   - python=3.7
   - fftw
+  - pip
   - pip:
     - hyperspy
     - hyperspy-gui-traitsui

@@ -1,0 +1,21 @@
+name: MMC_2019_EMAG_2DMaterials
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7
+  - fftw
+  - pip:
+    - pyprismatic
+    - hyperspy
+    - hyperspy-gui-traitsui
+    - hyperspy_gui_ipywidgets
+    - matplotlib
+    - numpy==1.15.1
+    - ase
+    - pandas
+    - PyCifRW==4.3
+    - periodictable
+    - scipy
+    - scikit-image==0.14.0
+    - atomap==0.1.4
